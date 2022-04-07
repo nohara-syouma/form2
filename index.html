@@ -1,0 +1,72 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>アンケート</title>
+    <link rel="stylesheet" href="css/style.css">
+</head>
+<body>
+
+    <h1>アンケート</h1>
+
+    <hr>
+
+    <div class="box1">
+        AxiZの研修をご利用いただき、誠にありがとうございます。<br>
+        以下の内容の記入及び送信をして頂けると幸いです。<br><br>
+
+        <form action="result.html">
+
+            会社名<span class="poit">必須</span><br><input type="text" name="kaisya" class="hoge" required><br><br>
+            お名前<span class="poit">必須</span><br><input type="text" name="name" class="hoge"><br><br>
+            メールアドレス<br><input type="text" name="mail" class="hoge"><br><br>
+            年齢<br><input type="text" name="mail"><br><br>
+
+            受講コース<br><label><input type="radio" name="kos" value="java">java</label>
+            <label><input type="radio" name="kos" value="inf">インフラ</label><br><br>
+
+            会場<br>
+            <select name="kaijyou" class="hoge">
+                <option value="nihonbasi" selected >日本橋A教室</option>
+                <option value="okinawa">沖縄教室</option>
+            </select>
+            <br>
+            
+
+            <br>詳しく学びたい内容(複数回答可)<br>
+            <label><input type="radio" name="pro" value="java">ビジネスマナー</label><br>
+            <label><input type="radio" name="pro" value="java">HTML/CSS</label><br>
+            <label><input type="radio" name="pro" value="java">javaScript</label><br>
+            <label><input type="radio" name="pro" value="java">java</label><br>
+            <label><input type="radio" name="pro" value="java">データベース</label><br>
+            <label><input type="radio" name="pro" value="inf">Linux</label><br>
+
+            <br>ご意見<br>
+            <textarea name="free" rows="5" cols="20" class="hoge"></textarea>
+            <br>
+
+
+            <button type="submit">送信する</button>
+        </form>
+
+        
+          
+
+
+
+
+
+
+    </div>
+
+    <hr>
+
+
+    
+</body>
+</html>
+
+
+
